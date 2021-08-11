@@ -1,0 +1,27 @@
+<html>
+<head>
+<style>
+a.bookmarklet, a.button {
+    display: -moz-inline-box;
+    display: inline-block;
+    padding: 1px 6px;
+    height: 18px;
+    color: #fff;
+    background: #32a0eb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+</style>
+</head>
+<body>
+Drag this to your bookmarks bar:
+<a class="bookmarklet" href="javascript:(function()%7Bwindow.location%3Dwindow.location.toString().replace(%2Farxiv%5C.org%2F%2C'arxiv-vanity.com').replace(%2F%5C%2F(pdf%7Cabs)%5C%2F%2F%2C'%2Fpapers%2F').replace(%2F%5B.%5Dpdf%24%2F%2C'')%7D)()">arxiv-vanity</a>
+<br>
+<br>
+Click it whenever you're on an arxiv abstract or PDF, and this will turn it into a webpage with large fonts that 83 year olds like myself find easier to read.
+<br>
+<br>
+Please report bugs to <a href="https://twitter.com/theshawwn">@theshawwn</a>. (DMs open.)
+</body>
+</html>
